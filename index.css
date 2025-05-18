@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+*{
+    box-sizing:border-box;
+    padding: 0px;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f5;
+}
+.header-container{
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+}
+.image{
+    width:30px;
+    height: 30px;
+    object-fit:contain;
+}
+.heading{
+    color: #000000;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 600;
+    margin-left: 5px;
+}
+.list-card{
+    background-color: #ffffff;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    width: 420px;
+    padding: 10px;
+}
+.title{
+    color: #000000;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 500;
+}
+.input-title{
+    color:#b3b3cc;
+    border: none;
+    outline: none;
+    padding-bottom: 5px;
+}
+.color{
+    color: #000001;
+}
+.button-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.btn{
+    background-color: #4d4dff;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px solid #ffffff;
+    outline: #4d4dff;
+    padding: 5px;
+    font-size: 13px;
+}
+.middle-card{
+    display: flex;
+    flex-direction: row;
+    padding-right:  16px;
+    margin-right: 20px;
+}
+.status-card{
+    display: flex;
+    flex-direction: column;
+    margin-top: 7px;
+}
+.select{
+    width: 90%;
+    border:none;
+    outline: none;
+}
+.todo-item-container{
+    background-color: #ffffff;
+    padding: 12px;
+    width: 420px;
+    margin-top: 10px;
+    border-radius: 7px;
+}
+
